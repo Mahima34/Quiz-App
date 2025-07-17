@@ -1,0 +1,128 @@
+/* Quiz Box */
+#quiz {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Question Text */
+#quiz h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Horizontal line */
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 20px 0;
+}
+
+/* Option List */
+.quiz-section {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px 30px;
+    border: 2px solid #ccc;
+    border-radius: 12px;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .question {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  li {
+    background-color: #f0f0f5;
+    padding: 12px 15px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+    border: 1px solid transparent;
+  }
+
+  li:hover {
+    background-color: #e0d7f3;
+    transform: translateY(-2px);
+    border: 1px solid #a77cf4;
+  }
+
+  input[type="radio"] {
+    accent-color: purple;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+  }
+
+  label {
+    margin-left: 12px;
+    font-size: 1.1rem;
+    color: #333;
+    cursor: pointer;
+    flex: 1;
+  }
+
+  .btn button {
+    background-color: purple;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .btn button:hover {
+    background-color: #5e0a86;
+  }
+/* Input and Label Style */
+.answer {
+  margin-right: 10px;
+}
+
+label {
+  cursor: pointer;
+  color: #444;
+}
+
+/* Button Container */
+.btn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Submit Button */
+#submit {
+  background-color: #ae6fcc ;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#submit:hover {
+  background-color: #9408d4;
+}
