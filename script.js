@@ -29,7 +29,7 @@ const quizData = [
          "<div>",
          "<section>"
       ],
-      correct: 0
+      correct: 0,
    },
    {
       questions: "Which of the following is a JavaScript framework?",
@@ -39,7 +39,7 @@ const quizData = [
          "React",
          "Ruby on Rails"
       ],
-      correct: 2
+      correct: 2,
    },
    {
       questions: "What is the purpose of the 'this' keyword in JavaScript?",
@@ -49,7 +49,7 @@ const quizData = [
          "To refer to the current object",
          "To refer to the previous object"
       ],
-      correct: 2
+      correct: 2,
    },
    {
       questions: "Which of the following is not a JavaScript data type?",
@@ -59,7 +59,7 @@ const quizData = [
          "Number",
          "Character"
       ],
-      correct: 3
+      correct: 3,
    },
    {
       questions: "What does CSS stand for?",
@@ -69,7 +69,7 @@ const quizData = [
          "Computer Style Sheets",
          "Cascading Simple Sheets"
       ],
-      correct: 0
+      correct: 0,
    },
    {
       questions: "Which HTML attribute is used to define inline styles?",
@@ -79,7 +79,7 @@ const quizData = [
          "id",
          "styles"
       ],
-      correct: 0
+      correct: 0,
    },
    {
       questions: "What is the purpose of the 'let' keyword in JavaScript?",
@@ -89,7 +89,7 @@ const quizData = [
          "To declare a global variable",
          "To declare a function"
       ],
-      correct: 0
+      correct: 0,
    },
    {
       questions: "How do you write a comment in CSS?",
@@ -99,7 +99,7 @@ const quizData = [
          "<!-- This is a comment -->",
          "# This is a comment"   
       ], 
-      correct: 0
+      correct: 0,
    },
    {
       questions: " Which hook is used in React to manage side effects?",
@@ -109,6 +109,6 @@ const quizData = [
          "useContext",
          "useReducer"
       ],
-      correct: 1
+      correct: 1,
    }
 ]
