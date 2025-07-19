@@ -96,3 +96,15 @@ const currentQuiz = 0;
 const score = 0;
 
 //step-3 load quiz function
+
+const loadQuiz = () => {
+  const { question, options } = quizData[currentQuiz];
+  console.log(question, options);
+
+  questionElm.innerText = question;
+  options.forEach(
+    (curOption, index) => (window[`option_${index + 1}`].innerText = curOption)
+  );
+};
+
+loadQuiz();
